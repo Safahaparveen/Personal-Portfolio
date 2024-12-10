@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c62a3a51a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav>
+            <!-- Logo -->
+            <img src="s.png" class="logo" alt="Safaha Logo">
+            
+            <!-- Navigation Menu -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Close Menu Icon -->
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            
+            <!-- Open Menu Icon -->
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <!-- Header Text Section -->
+        <div class="header-text">
+            <p>I AM A FULL STACK DEVELOPER</p>
+            <h1>Hi, I'm <span>SAFAHA</span> PARVEEN</h1>
+        </div>
+    </div>
+</div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img.jpg" class="about-img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, repellendus, illo blanditiis deserunt tenetur nisi ut nemo, ipsum distinctio consequatur mollitia quidem voluptatem soluta. At amet praesentium quo voluptates aliquid!</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Spring Boot</li><br>
+                            <li><span>web development</span><br>Designing web app interface</li><br>
+                            <li><span>web designing</span><br>Designing web app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>React.js Front-End</span><br>Interactive interface</li><br>
+                            <li><span>web development</span><br>Designing web app interface</li><br>
+                            <li><span>web designing</span><br>Designing web app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E Computer Science and Engineering (2020-2024)</span><br>Annamalai University<br>CGPA:7.8/10</li><br>
+                            <li><span>Nirmala Matriculation Hr.Sec.School (2020)</span><br>59.8%</li><br>
+                            <li><span>Thillai Matriculation School (2018)</span><br>80.8%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services------------------------- -->
+     <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Design</h2>
+                <p>Creating visually appealing and responsive designs for various platforms.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Java Development</h2>
+                <p>Building robust backend systems using Java and Spring Boot.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>MySQL Development</h2>
+                <p>Designing and managing efficient databases for scalable applications.</p>
+            </div>
+        </div>
+        </div>
+     </div>
+     <!-- 
+    
+     -----------------------------------portfolio------------------------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/port.jpg" alt="Portfolio">
+                    <div class="layer">
+                        <h3>Portfolio Project</h3>
+                        <p>Interactive personal portfolio with smooth navigation and animations.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/bookshelf.jpg" alt="Bookstore">
+                    <div class="layer">
+                        <h3>Bookstore</h3>
+                        <p>An online bookstore with user-friendly browsing and purchase options.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img-size" src="/portfolio proj/mysql.jpg" alt="Fitness Tracking System">
+                    <div class="layer">
+                        <h3>Fitness Tracking and Workout Planning System</h3>
+                        <p>Comprehensive system for tracking fitness goals, workout planning, and monitoring progress.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    
+        <br>
+                    <br>
+                    <br>
+                    <br>
+    </div>
+<!------------------------------------contact-------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    
+                    <h1>SAFAHA PARVEEN</h1>
+                    <p><a href="mailto:ssafaha786@gmail.com">ssafaha786@gmail.com</a></p>
+                    <p>+91-9566373726</p><br>
+                    <div class="social-icons">
+                     <i class="fa-brands fa-instagram"><a href=""></a></i>
+                     <i class="fa-brands fa-github"><a href=""></a></i>
+                     <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/safaha-parveen-s-999994223"></a></i>    
+                    </div>
+                    <a href="/portfolio proj/SAFAHA PARVEEN.S_B.E(CSE)2024_7.8CGPA.pdf" download class="btn btn2">Download CV</a>
+                   </div>
+                   <div class="contact-right">
+                       <form action="">
+                           <input type="text" name="Name" placeholder="Your Name" required>
+                           <input type="email" name="Email" placeholder="Your Email" required>
+                           <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                           <button type="submit" class="btn btn2">submit</button>
+                       </form>
+                   </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright safaha parveen. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function  closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
